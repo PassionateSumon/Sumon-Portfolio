@@ -1,5 +1,5 @@
 import React from "react";
-import mypic from "../assets/MyPic.jpeg";
+import mypic from "../assets/MyPic.png";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -43,7 +43,7 @@ const Home = () => {
           <img
             src={mypic}
             alt="sumon_mitra"
-            className="px-3 rounded-3xl h-72 mx-auto md:w-full"
+            className="px-3 rounded-3xl mx-auto md:w-full"
           />
         </div>
       </div>
