@@ -15,11 +15,11 @@ const Home = () => {
       >
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white cursor-pointer">
-            I am Sumon Mitra
+            Sumon Mitra
           </h2>
           <p className="text-gray-500 py-4 max-w-md cursor-pointer">
             I am a student, currently pursuing Bachalor's degree in Computer
-            Science and Engineering, have interest to learning technologies and
+            Science and Engineering, and have interest to learning technologies and
             I like to do DSA and Development as well.
           </p>
 

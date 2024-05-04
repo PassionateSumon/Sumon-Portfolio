@@ -1,5 +1,6 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import { HiOutlineMail } from "react-icons/hi";
 import { GrDocumentPdf } from "react-icons/gr";
 
@@ -40,11 +41,11 @@ const SocialLinks = () => {
       id: 4,
       child: (
         <>
-          Instagram
-          <FaInstagram size={30} />
+          LeetCode
+          <SiLeetcode size={30} />
         </>
       ),
-      href: "https://www.instagram.com/sumonmitra.21/",
+      href: "https://leetcode.com/u/i_am_sumon/",
     },
     {
       id: 5,
@@ -64,7 +65,7 @@ const SocialLinks = () => {
     <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
       <ul>
         {Links.map(({ id, child, href, download, style }) => (
-          <li key={id} className={"flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:ml-[-5px] hover:rounded-md duration-300" + " " + style}>
+          <li key={id} className={`flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:ml-[-5px] hover:rounded-md duration-300 ${style}`}>
             <a
               href={href}
               className="w-full flex justify-between items-center text-black"
