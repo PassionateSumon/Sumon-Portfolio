@@ -55,7 +55,7 @@ const SocialLinks = () => {
           <GrDocumentPdf size={30} />
         </>
       ),
-      href: "/resume.pdf",
+      href: "/Sumon_Mitra-SDE-Resume.pdf",
       style: "rounded-br-md",
       download: true,
     },
